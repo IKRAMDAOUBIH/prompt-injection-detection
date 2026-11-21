@@ -2,7 +2,7 @@
 
 ## Source
 - **Dataset** : `dmilush/shieldlm-prompt-injection` (Hugging Face), qui agrège plusieurs jeux publics : `alespalla/chatbot-instruction-prompts`, `spml/chatbot-prompt-injection`, `safeguard/prompt-injection`, `harelix/mixed-techniques-2024`, `trustailab/in-the-wild-jailbreak-prompts`, `yanismiraoui/prompt-injections`, `deepset/prompt-injections`, `jackhhao/jailbreak-classification`, `jailbreakbench/jbb-behaviors`, `injecagent/*`.
-- **Licence** : à vérifier sur la page Hugging Face du dataset et de chacune de ses sources avant le rendu. *(À COMPLÉTER)*
+- **Licence** : MIT, selon la fiche Hugging Face du dataset `dmilush/shieldlm-prompt-injection` (consultée le 21/11/2026). Le dataset agrège plusieurs jeux publics dont les licences d'origine peuvent différer.
 - **Langue** : anglais à 99 % environ. Les autres langues (fr, es, de, it, pt, ro, ca) représentent moins de 1 % et sont **toutes malveillantes**.
 - **Exemples synthétiques** : aucun n'a été ajouté.
 
