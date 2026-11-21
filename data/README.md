@@ -42,11 +42,8 @@ Les familles sont celles fournies par le dataset (colonne `label_category`). Ell
 
 `test_unseen_family.csv` réutilise les 5 280 prompts légitimes de `test_seen` (même ensemble de test d'origine). Ils ne sont pas dans le train.
 
-## Règle pour les autres membres
-- **Entraîner uniquement sur `train_seen.csv`**, régler sur `val_seen.csv`.
-- Ne jamais utiliser `test_seen.csv` ni `test_unseen_family.csv` pour régler quoi que ce soit.
 
-## Limites connues (à citer dans le rapport)
+## Limites connues
 1. **Biais de langue** : aucun prompt légitime non anglais, donc les faux positifs sur du français légitime ne sont pas mesurables.
 2. **Biais de source** : presque tous les jailbreaks viennent de `trustailab/in-the-wild-jailbreak-prompts`. « Famille retirée » = aussi « source retirée ».
 3. **Biais de longueur** : longueur médiane de 68 caractères pour les légitimes contre 323 pour les malveillants (voir notebook 05).
