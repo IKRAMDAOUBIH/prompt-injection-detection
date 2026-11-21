@@ -52,6 +52,3 @@ pip install -r requirements.txt
 
 Détails, ablations et analyse d'erreurs : dossier `results/`.
 
-## Déclaration d'usage de l'IA
-
-Le Membre 1 a utilisé un assistant IA (Claude, Anthropic) pour l'aide à la conception, à la génération du code des notebooks 03 à 05 et à la rédaction de la documentation. Le contenu a été relu, exécuté et doit être expliqué par la personne qui le présente.
