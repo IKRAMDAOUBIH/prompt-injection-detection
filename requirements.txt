@@ -5,3 +5,8 @@ matplotlib
 seaborn
 joblib
 datasets
+torch
+transformers
+accelerate
+jupyter
+ipykernel
